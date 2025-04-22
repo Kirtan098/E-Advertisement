@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.* 
+client/.env
+server/.env
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Build output
+/build
+/dist
+client/build/
+server/dist/
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing
+coverage/
+*.lcov
+
+# Caches
+.cache/
+*.eslintcache
+
+# MongoDB dump
+dump/
